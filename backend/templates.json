@@ -1,0 +1,14 @@
+[
+  {
+    "id": "modern",
+    "name": "Modern Resume",
+    "layout": "modern",
+    "source": "api"
+  },
+  {
+    "id": "classic",
+    "name": "Classic Resume",
+    "layout": "classic",
+    "source": "api"
+  }
+]
