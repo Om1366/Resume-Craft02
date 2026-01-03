@@ -16,8 +16,18 @@ const app = express(); // ✅ MUST be before app.use
 /* =========================
    GLOBAL MIDDLEWARES
 ========================= */
-app.use(cors());
-app.use(express.json({ limit: "10mb" }));
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",
+      "https://vercel-eta-three-24.vercel.app"
+    ],
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: true
+  })
+);
+
 
 /* =========================
    DIRECT TEST ROUTE
