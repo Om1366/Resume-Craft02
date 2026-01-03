@@ -1,3 +1,4 @@
+alert("THIS IS THE NEW FRONTEND BUILD");
 console.log("BUILD API URL =", import.meta.env.VITE_API_URL);
 import React from "react";
 import ReactDOM from "react-dom/client";
