@@ -1,4 +1,5 @@
-const BASE_URL = "http://localhost:5001/api/ai";
+const BASE_URL = `${import.meta.env.VITE_API_URL}/api/ai`;
+
 
 /**
  * ✨ Enhance Resume Content (Summary / Experience)

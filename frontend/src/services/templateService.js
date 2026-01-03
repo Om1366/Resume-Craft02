@@ -1,4 +1,5 @@
-const DB_API_URL = "http://localhost:5001/api/templates";
+const DB_API_URL = `${import.meta.env.VITE_API_URL}/api/templates`;
+
 const EXTERNAL_API_URL =
   "https://raw.githubusercontent.com/Om1366/templates/main/templates.json";
 

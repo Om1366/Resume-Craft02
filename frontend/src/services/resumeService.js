@@ -1,4 +1,5 @@
-const API_URL = "http://localhost:5001/api/resumes";
+const API_URL = `${import.meta.env.VITE_API_URL}/api/resumes`;
+
 
 // CREATE RESUME
 export const createResume = async (resumeData, token) => {

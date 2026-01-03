@@ -1,7 +1,8 @@
 import { useEffect, useState, useContext } from "react";
 import { AuthContext } from "../../context/AuthContext";
 
-const API_URL = "http://localhost:5001/api/templates";
+const API_URL = `${import.meta.env.VITE_API_URL}/api/templates`;
+
 
 const layoutMap = {
   modern: {

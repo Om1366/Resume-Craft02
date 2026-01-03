@@ -17,7 +17,8 @@ import ModernTemplate from "../templates/ModernTemplate";
 import ClassicTemplate from "../templates/ClassicTemplate";
 import MinimalTemplate from "../templates/MinimalTemplate";
 
-const ATS_API = "http://localhost:5001/api/ats/check";
+const ATS_API = `${import.meta.env.VITE_API_URL}/api/ats/check`;
+
 
 function CreateResume() {
   const { templateId, id } = useParams();

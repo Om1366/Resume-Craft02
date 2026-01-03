@@ -1,7 +1,8 @@
 import { useEffect, useState, useContext } from "react";
 import { AuthContext } from "../../context/AuthContext";
 
-const API = "http://localhost:5001/api/ats";
+const API = `${import.meta.env.VITE_API_URL}/api/ats`;
+
 
 function ATSControl() {
   const { token } = useContext(AuthContext);
