@@ -96,13 +96,16 @@ ResumeCraft/
 │ │
 │ └── App.jsx
 
-Installation & Setup
-Backend
-cd backend
-npm install
+Installation & Setup:- 
+
+
+Backend:-
+cd backend ,
+npm install ,
 npm start
 
-Frontend
-cd frontend
-npm install
-npm run dev
+
+Frontend:-
+cd frontend ,
+npm install ,
+npm run dev ,
