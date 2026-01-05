@@ -9,9 +9,9 @@ const testRoutes = require("./routes/testRoutes");
 const resumeRoutes = require("./routes/resumeRoutes");
 const templateRoutes = require("./routes/templateRoutes");
 const aiRoutes = require("./routes/aiRoutes");
-const atsRoutes = require("./routes/atsRoutes"); // ✅ ATS ROUTES
+const atsRoutes = require("./routes/atsRoutes"); // 
 
-const app = express(); // ✅ MUST be before app.use
+const app = express(); // 
 
 /* =========================
    GLOBAL MIDDLEWARES
@@ -44,7 +44,7 @@ app.use("/api/test", testRoutes);
 app.use("/api/resumes", resumeRoutes);
 app.use("/api/templates", templateRoutes);
 app.use("/api/ai", aiRoutes);
-app.use("/api/ats", atsRoutes); // ✅ ATS ROUTE REGISTERED
+app.use("/api/ats", atsRoutes); // 
 
 /* =========================
    HEALTH CHECK
