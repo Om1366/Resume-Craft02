@@ -1,4 +1,4 @@
-require("dotenv").config();   // 👈 MUST BE FIRST
+require("dotenv").config();   
 
 const app = require("./app");
 const connectDB = require("./config/db");
